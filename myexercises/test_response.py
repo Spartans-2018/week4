@@ -4,7 +4,7 @@ response = requests.get("https://www.alphavantage.co/query?function=TIME_SERIES_
 jsonvalue = response.json()
 timeseries = jsonvalue["Time Series (5min)"]
 
-if (assert(print(jsonvalue))==[123]):
+#if (assert(print(jsonvalue))==[123]):
 
 print(timeseries)
 
