@@ -11,4 +11,4 @@ timeseries = jsonvalue["Time Series (5min)"]
 print([timeseries[list(timeseries.keys())[i]]["4. close"] for i in range(0,10)])
 
 
-
+# ignore
